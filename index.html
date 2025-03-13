@@ -15,7 +15,7 @@
     <title>Rentiro</title>
 </head>
 <body class="manrope-regular">
-    <header class="pt-8 md:pt-10 lg:pt-12 xl:pt-13 md:container mx-auto">
+    <header class="pt-8 md:pt-10 lg:pt-12 xl:pt-13 md:container mx-auto px-5">
         <!-- navbar -->
         <div class="flex justify-between items-center">
             <!-- logo -->
@@ -84,7 +84,7 @@
             <!-- text section -->
              <div class="flex flex-col items-center justify-center text-center gap-4 lg:gap-5">
                 <h1 class="text-3xl font-extrabold text-gray-900 md:text-4xl lg:text-5xl xl:text-6xl">A barn house of this design has a striking appearance</h1>
-                <p class="text-gray-800 text-sm/6 md:text-base/6 font-medium ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                <p class="text-gray-800 text-sm/6 md:text-base/6 font-medium">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
                 <!-- view details button -->
                 <button type="button" class="flex items-center btn-color2 gap-2 p-3 px-5 text-stone-800 rounded-full whitespace-nowrap justify-center border border-[#ABEF5F] w-full md:w-fit">
                     <h2 class="font-bold text-xl text-center">View Details</h2>
@@ -97,7 +97,62 @@
              </div>
          </div>
     </header>
-    <main></main>
-    <footer></footer>
+    <main class="">
+        <!-- about us -->
+         <section class="bg-gray-100">
+            <div class="lg:flex justify-between gap-9 py-8 px-5 md:container mx-auto">
+                <div class="flex flex-col items-center justify-center lg:items-start gap-6 lg:w-1/2">
+                    <!-- about us button -->
+                    <button type="button" class="flex items-center bg-white gap-2 px-4 py-2 text-stone-600 rounded-full whitespace-nowrap justify-center w-fit">
+                        <!-- arrow btn -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                          </svg>
+                        <h2 class="font-bold text-base text-center">About Us</h2>
+                    </button>
+                    <!-- text section -->
+                    <div>
+                        <h1 class="text-2xl font-extrabold text-gray-900 md:text-3xl lg:text-4xl xl:text-5xl mb-4 text-center lg:text-start">We design thoughtful, liveable spaces</h1>
+                        <p class="text-gray-800 text-sm/6 md:text-base/6 font-medium text-center lg:text-start">The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    </div>
+                     <!-- costing -->
+                    <div class="flex flex-col md:flex-row lg:flex-col gap-4">
+                        <!-- card 1 -->
+                        <div class="card card-side items-start bg-white shadow-sm gap-4 p-5">
+                            <figure>
+                                <img src="assets/commercial.png" class="w-10 h-10" alt="commercial" />
+                            </figure>
+    
+                            <div class="card-body p-0">
+                                <h2 class="card-title">Commercial</h2>
+                                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+                        </div>
+    
+                        <!-- card 2 -->
+                        <div class="card card-side items-start bg-white shadow-sm gap-4 p-5">
+                            <figure>
+                                <img src="assets/residential.png" class="w-10 h-10" alt="residential" />
+                            </figure>
+    
+                            <div class="card-body p-0">
+                                <h2 class="card-title">Residential</h2>
+                                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- img section -->
+                <div class="lg:w-1/2 mt-6 lg:mt-0">
+                    <img src="assets/Rectangle.png" class="w-full h-full md:object-cover lg:object-fill" alt="rectangle">
+                </div>
+            </div>
+            
+            
+
+            
+         </section>
+    </main>
+    <footer class="md:container mx-auto"></footer>
 </body>
 </html>
