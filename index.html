@@ -470,8 +470,55 @@
                 </div>
             </div>  
         </section>
+        <!-- connect -->
+         <section class="bg-[url(assets/bg.jpg)] bg-no-repeat bg-cover">
+            <div class="px-5 md:px-20 lg:px-60 py-8 md:py-17 xl:py-25">
+                <!--  -->
+                <div class="mx-auto flex items-center btn-color2 gap-2 px-4 py-2 text-stone-600 rounded-full whitespace-nowrap justify-center w-fit">
+                    <!-- arrow btn -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                        </svg>
+                    <h2 class="font-bold text-base text-center">Let’s Connect</h2>
+                </div>
+                <!-- text section -->
+                <div class="mx-auto mt-4 max-w-[678.26px]">
+                    <h1 class="text-2xl font-extrabold text-gray-900 md:text-3xl lg:text-4xl xl:text-5xl mb-4 text-center ">Let’s Discuss Next Project</h1>
+                    <p class="text-gray-800 text-sm/6 md:text-base/6 font-medium text-center ">The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.</p>
 
-        <!--  -->
+                </div>
+
+                <!-- form -->
+                <form class="grid grid-cols-1 md:grid-cols-2 mt-8 gap-6">
+                    <label for="first_name">
+                        <input class="outline-none border border-gray-300 text-base font-medium text-gray-600 w-full rounded-3xl bg-white py-3 px-5" 
+                            placeholder="First Name*" type="text" name="first_name" id="first_name" required>
+                    </label>
+                
+                    <label for="last_name">
+                        <input class="outline-none border border-gray-300 text-base font-medium text-gray-600 w-full rounded-3xl bg-white py-3 px-5" 
+                            placeholder="Last Name*" type="text" name="last_name" id="last_name" required>
+                    </label>
+                
+                    <label for="phone">
+                        <input class="outline-none border border-gray-300 text-base font-medium text-gray-600 w-full rounded-3xl bg-white py-3 px-5" 
+                            placeholder="Phone Number*" type="tel" name="phone" id="phone" pattern="[0-9]{11}" required>
+                    </label>
+                
+                    <label for="email">
+                        <input class="outline-none border border-gray-300 text-base font-medium text-gray-600 w-full rounded-3xl bg-white py-3 px-5" 
+                            placeholder="Email Address*" type="email" name="email" id="email" required>
+                    </label>
+                
+                    <label for="about" class="md:col-span-2 col-span-full">
+                        <textarea name="about" id="about" class="outline-none border border-gray-300 text-base font-medium text-gray-600 w-full h-32 md:h-40 rounded-3xl bg-white py-3 px-5" 
+                            placeholder="Write your message here" required></textarea>
+                    </label>
+                
+                    <button type="submit" class="col-span-1 md:col-span-2 button-color text-gray-800 cursor-pointer py-3 px-6 rounded-3xl text-lg font-semibold transition">Send Email</button>
+                </form>                
+            </div>
+         </section>
     </main>
     <footer class="md:container mx-auto"></footer>
 </body>
